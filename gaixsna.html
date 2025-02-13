@@ -1,119 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="gaixsna.css">
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="/favicon.ico">
-    <title>Gaixsna • გაიხსნა</title>
-</head>
-<body>
-    <main>
-        <div class="gaixsna-page">
-            <div class="landing-container">
-                <h1 class="container-h1">"ჯავშნები გაიხსნა?"</h1>
-                <p class="container-p">
-                    მიიღე SMS შეტყობინება ქალაქის პრაქტიკული გამოცდის (B, B1) ჯავშნების გახსნითანავე ყოველთვიურად.
-                </p>
-                <div class="landing-wrapper">
-                    <div class="landing-video">
-                        <video src="instruction.e8d3416d945dd3bd8b64.mp4" class="video" controls></video>
-                    </div>
-                </div>
-                <form>
-                    <div class="contact-div">
-                        <div class="phone-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                            </svg>
-                        </div>
-                        <div class="span-div">
-                            <span>+995</span>
-                        </div>
-                        <input class="contact-input" type="number" placeholder="ტელ. ნომერი">
-                    </div>
-                    <div class="contact-div">
-                        <div class="location-svg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3">
-                                </circle>
-                            </svg>
-                        </div>
-                        <!--<input class="contact-input" type="text" placeholder="აირჩიეთ ქალაქი">-->
-                        <select class="city-dropdown">
-                            <option class="choose-city" hidden="">აირჩიეთ ქალაქი</option>
-                            <option value="1">ბათუმი (Batumi)</option>
-                            <option value="2">თელავი (Telavi)</option>
-                            <option value="3">ახალციხე (Akhaltsikhe)</option>
-                            <option value="4">ზუგდიდი (Zugdidi)</option>
-                            <option value="5">გორი (Gori)</option>
-                            <option value="6">ფოთი (Poti)</option>
-                            <option value="7">ოზურგეთი (Ozurgeti)</option>
-                            <option value="8">საჩხერე (Sachkhere)</option>
-                            <option value="9">რუსთავი (Rustavi)</option>
-                            <option value="10">ქუთაისი (Kutaisi)</option>
-                        </select>
-                    </div>
-                    <div class="radio-container">
-                        <div class="automatic-container">
-                            <input type="radio" id="automatic">
-                            <label for="automatic" class="label-for-radio">ავტომატიკა</label>
-                        </div>
-                        <div class="automatic-container">
-                            <input type="radio" id="manual">
-                            <label for="manual" class="label-for-radio">მექანიკა</label>
-                        </div>
-                    </div>
-                    <div class="accept-text">
-                        <input type="checkbox" class="landing-checkbox" id="accept">
-                        <label for="accept" class="accept-label"> ვეთანხმები კონფიდენციალურობის პოლიტიკას და წესებსა და პირობებს</label>
-                    </div>
-                    <button class="registration-btn" type="button">რეგისტრაცია (3.99₾/თვე)</button>
-                    <div class="congrulation-div">
-                        <p class="congrulation-p">თქვენ წარმატებით დარეგისტრირდით Gaixsna.ge-ზე!</p>
-                    </div>
-                    <p class="warning-p">
-                        <span class="warning-span">შენიშვნა:</span>
-                        გადახდა შესაძლებელია ნებისმიერი ბანკის ბარათით
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="gaixsna.css">
+        <link rel="icon" href>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/favicon.ico">
+        <title>Gaixsna • გაიხსნა</title>
+    </head>
+    <body>
+        <main>
+            <div class="gaixsna-page">
+                <div class="landing-container">
+                    <h1 class="container-h1">"ჯავშნები გაიხსნა?"</h1>
+                    <p class="container-p">
+                        მიიღე SMS შეტყობინება ქალაქის პრაქტიკული გამოცდის (B,
+                        B1) ჯავშნების გახსნითანავე ყოველთვიურად.
                     </p>
-                    <div class="cancel-div">
-                        <a class="cancel-a">გამოწერის გაუქმება</a>
-                        <a class="cancel-a">მონაცემების შეცვლა</a>
+                    <div class="landing-wrapper">
+                        <div class="landing-video">
+                            <video src="instruction.e8d3416d945dd3bd8b64.mp4"
+                                class="video" controls></video>
+                        </div>
                     </div>
-                </form>
+                    <form>
+                        <div class="contact-div">
+                            <div class="phone-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-phone">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="span-div">
+                                <span>+995</span>
+                            </div>
+                            <input class="contact-input" type="number"
+                                placeholder="ტელ. ნომერი">
+                        </div>
+                        <div class="contact-div">
+                            <div class="location-svg">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-map-pin">
+                                    <path
+                                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle
+                                        cx="12" cy="10" r="3">
+                                    </circle>
+                                </svg>
+                            </div>
+                            <!--<input class="contact-input" type="text" placeholder="აირჩიეთ ქალაქი">-->
+                            <select class="city-dropdown">
+                                <option class="choose-city" hidden>აირჩიეთ
+                                    ქალაქი</option>
+                                <option value="1">ბათუმი (Batumi)</option>
+                                <option value="2">თელავი (Telavi)</option>
+                                <option value="3">ახალციხე
+                                    (Akhaltsikhe)</option>
+                                <option value="4">ზუგდიდი (Zugdidi)</option>
+                                <option value="5">გორი (Gori)</option>
+                                <option value="6">ფოთი (Poti)</option>
+                                <option value="7">ოზურგეთი (Ozurgeti)</option>
+                                <option value="8">საჩხერე (Sachkhere)</option>
+                                <option value="9">რუსთავი (Rustavi)</option>
+                                <option value="10">ქუთაისი (Kutaisi)</option>
+                            </select>
+                        </div>
+                        <div class="radio-container">
+                            <div class="automatic-container">
+                                <input type="radio" id="automatic">
+                                <label for="automatic"
+                                    class="label-for-radio">ავტომატიკა</label>
+                            </div>
+                            <div class="automatic-container">
+                                <input type="radio" id="manual">
+                                <label for="manual"
+                                    class="label-for-radio">მექანიკა</label>
+                            </div>
+                        </div>
+                        <div class="accept-text">
+                            <input type="checkbox" class="landing-checkbox"
+                                id="accept">
+                            <label for="accept" class="accept-label"> ვეთანხმები
+                                კონფიდენციალურობის პოლიტიკას და წესებსა და
+                                პირობებს</label>
+                        </div>
+                        <button class="registration-btn"
+                            type="button">რეგისტრაცია (3.99₾/თვე)</button>
+                        <div class="congrulation-div">
+                            <p class="congrulation-p">თქვენ წარმატებით
+                                დარეგისტრირდით Gaixsna.ge-ზე!</p>
+                        </div>
+                        <p class="warning-p">
+                            <span class="warning-span">შენიშვნა:</span>
+                            გადახდა შესაძლებელია ნებისმიერი ბანკის ბარათით
+                        </p>
+                        <div class="cancel-div">
+                            <a class="cancel-a">გამოწერის გაუქმება</a>
+                            <a class="cancel-a">მონაცემების შეცვლა</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-div">
-                <div class="anchors-container">
-                    <a class="footer-a">მთავარი</a>
-                    <span class="footer-span">•</span>
-                    <a class="footer-a" href="gaixsna-connect.html">კონტაქტი</a>
-                    <span class="footer-span">•</span>
-                    <a class="footer-a">ჩვენს შესახებ</a>
-                </div>
-                <div class="anchors-container">
-                    <a class="footer-a">კონფიდენციალურობა</a>
-                    <span class="footer-span">•</span>
-                    <a class="footer-a">წესები და პირობები</a>
-                </div>
-                <div class="anchors-container">
-                    <a class="footer-contact">info@gaixsna.ge</a>
-                    <span class="footer-span">•</span>
-                    <a class="footer-contact">+995 551 139 783</a>
-                </div>
-                <div class="anchors-container">
-                    <p class="footer-p">
-                    გორი, რუსთაველის ქუჩა, 49.
-                    </p>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-div">
+                    <div class="anchors-container">
+                        <a class="footer-a">მთავარი</a>
+                        <span class="footer-span">•</span>
+                        <a class="footer-a"
+                            href="gaixsna-connect.html">კონტაქტი</a>
+                        <span class="footer-span">•</span>
+                        <a class="footer-a">ჩვენს შესახებ</a>
+                    </div>
+                    <div class="anchors-container">
+                        <a class="footer-a">კონფიდენციალურობა</a>
+                        <span class="footer-span">•</span>
+                        <a class="footer-a">წესები და პირობები</a>
+                    </div>
+                    <div class="anchors-container">
+                        <a class="footer-contact">info@gaixsna.ge</a>
+                        <span class="footer-span">•</span>
+                        <a class="footer-contact">+995 551 139 783</a>
+                    </div>
+                    <div class="anchors-container">
+                        <p class="footer-p">
+                            გორი, რუსთაველის ქუჩა, 49.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="gaixsna.js"></script>
-</body>
+        </footer>
+        <script src="gaixsna.js"></script>
+    </body>
 </html>

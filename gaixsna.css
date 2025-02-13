@@ -1,217 +1,260 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: Arial GEO,sans-serif
+  margin: 0;
+  padding: 0;
+  font-family: Arial GEO, sans-serif;
 }
+
 main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .gaixsna-page {
-    max-width: 400px;
-    width: 100%;
-    margin-top: 40px;
-    margin: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 40px;
+  margin: 20px;
 }
+
 .video {
-    max-width: 400px;
-    width: 100%;
-    height: 200px;
-    border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
 }
+
 h1 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
+
 .container-p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .contact-div {
-    display: flex;
-    max-width: 400px;
-    width: 100%;
-    background-color: rgb(247, 247, 247);
-    margin-top: 15px;
-    border-radius: 8px;
+  display: flex;
+  max-width: 400px;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  margin-top: 15px;
+  border-radius: 8px;
 }
+
 .feather {
-    width: 18px;
-    height: 18px;
-    color: #167afe;
-    background-color: #fff;
-    padding: 8px;
-    border-radius: 5px;
+  width: 18px;
+  height: 18px;
+  color: #167afe;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 5px;
 }
+
 .phone-svg,
 .location-svg {
-    padding: 6px;
-    margin-top: 2px;
+  padding: 6px;
+  margin-top: 2px;
 }
+
 .span-div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 span {
-    font-size: 18px;
+  font-size: 18px;
 }
+
 .contact-input {
-    background-color: rgb(247, 247, 247);
-    border: none;
-    outline: none;
-    padding: 8px;
-    font-size: 18px;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 18px;
 }
+
 .city-dropdown {
-    background-color: rgb(247, 247, 247);
-    border: none;
-    outline: none;
-    width: 80%;
-    font-size: 18px;
-    background-color: rgb(247, 247, 247);
-}   
-.choose-city {
-    font-size: 28px;
-    color: #167afe;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  outline: none;
+  width: 80%;
+  font-size: 18px;
+  background-color: rgb(247, 247, 247);
 }
+
+.choose-city {
+  font-size: 28px;
+  color: #167afe;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
+
 .radio-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
 .automatic-container {
-    padding: 12px;
+  padding: 12px;
 }
+
 .label-for-radio {
-    font-size: 18px;
+  font-size: 18px;
 }
+
 .landing-checkbox {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
+
 .accept-label {
-    font-size: 14px;
-    font-weight: 100;
+  font-size: 14px;
+  font-weight: 100;
 }
+
 .registration-btn {
-    background-color: #167afe;
-    width: 100%;
-    padding: 12px 20px;
-    margin-top: 15px;
-    border-radius: 8px;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
+  background-color: #167afe;
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
 }
+
 .congrulation-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    display: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  display: none;
 }
+
 .congrulation-p {
-    font-size: 15px;
+  font-size: 15px;
 }
+
 .warning-p {
-    margin-top: 15px;
-    font-weight: 900;
-    font-size: 16px;
+  margin-top: 15px;
+  font-weight: 900;
+  font-size: 16px;
 }
+
 .warning-span {
-    font-size: 16px;
-    color: #167afe;
+  font-size: 16px;
+  color: #167afe;
 }
+
 .cancel-div {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
 }
+
 .cancel-a {
-    font-size: 14px;
-    color: #167afe;
-    text-decoration: underline;
-    cursor: pointer;
+  font-size: 14px;
+  color: #167afe;
+  text-decoration: underline;
+  cursor: pointer;
 }
+
 footer {
-    width: 100%;
-    height: 240px;
-    background-color: rgb(247, 247, 247);
+  width: 100%;
+  height: 240px;
+  background-color: rgb(247, 247, 247);
 }
+
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 70%;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  justify-content: center;
 }
+
 .footer-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  margin-top: 55px;
 }
+
 .anchors-container {
-    padding: 10px;
+  padding: 10px;
 }
+
 .footer-span {
-    padding: 0px 14px;
+  padding: 0px 14px;
 }
+
 .footer-a {
-    cursor: pointer;
-    color: #000;
-    text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
 }
+
 .footer-contact {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
+
 .footer-a,
 .footer-p {
-    font-size: 15px;
+  font-size: 15px;
 }
+
 @media screen and (max-width: 768px) {
-    .gaixsna-page,
-    .landing-container {
-        max-width: 768px;
-        width: 100%;
-    }
-    .video {
-        width: 100%;
-        max-width: 768px;
-        height: auto;
-    }
-    .contact-div {
-        max-width: 768px;
-        width: 100%;
-    }
-    .anchors-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: -15px;
-    }
-    .anchors-container2 {
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-    footer {
-        height: 100%;
-    }
-    .footer-div {
-        margin-top: 25px;
-    }
-    .footer-span {
-        display: none;
-    }
-    .footer-a,
-    .footer-contact {
-        margin-bottom: 15px;
-    }
+  .gaixsna-page,
+  .landing-container {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .video {
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+  }
+
+  .contact-div {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .anchors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -15px;
+  }
+
+  .anchors-container2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  .footer-div {
+    margin-top: 25px;
+  }
+
+  .footer-span {
+    display: none;
+  }
+
+  .footer-a,
+  .footer-contact {
+    margin-bottom: 15px;
+  }
 }
